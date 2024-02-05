@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+     body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f2f2;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #eb6262eb;
+            padding: 20px;
+            box-shadow: 0 0 10px #f3efeff8;
+        }
+        h2, label,b,i {
+            color: #ffffff; /* white color */
+        }
+        .form-section {
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        input, select {
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #db3434f8;
+            color: #f0ececd6;
+            border: none;
+            cursor: pointer;
+        }
+        button.prev {
+            background-color: #aaa;
+        }
+        button.submit {
+            background-color: #27ae60;
+        }
+        a {
+            text-decoration: none;
+        }
+        a button {
+            margin-right: 10px;
+        }
+    </style>  
+</head>
+<body>
+    <div class="container">
+        <div class="form-section" id="page3">
+ <center>
+    <h2>Your Review</h2>
+    <label for="hear-about"> How did you hear about us? </label>
+    <select name="referrer" id="hear-about" fdprocessedid="o8at9b">
+        <option disabled="" selected="" value="">Select your option</option>
+        <option value="google">Google</option>
+        <option value="friend">Friend Circle</option>
+        <option value="advert">Advertising</option>
+        <option value="other">Relatives</option>
+        <option value="other">Other</option>
+      </select>
+      <br>
+      <br>
+      <b>Would you visit again?</b>
+      <br>
+      <br>
+      <input type="radio" name="yes">
+      <i>Yes</i>
+      <input type="radio" name="No">
+     <i> No</i>
+      <input type="radio" name="Maybe">
+      <i>Maybe</i>
+      <br>
+      <br> 
+      <b>Comment:</b> 
+      <br>
+      <br>
+      <textarea id="comments" rows="5" cols="25" placeholder="Write your comment here"></textarea>
+      <br>
+      <br>
+      <label for="file"><b>Choose File:</b></label>
+      <br>
+      <input type="file" id="fileInput" name="file">
+      <br>
+      <br>
+      <input type="checkbox" name="subscribe" checked="">
+      <i>Sign me up for Email updates</i>
+        <br>
+        <br> 
+        <a href="./page2.html" class="previous"><button fdprocessedid="j0yujh">« Back</button></a>
+        <a href="./page4.html"><button type="submit">submit</button></a>   
+ </center>
+</body>
+</html>

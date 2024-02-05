@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f2f2;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #eb6262eb;
+            padding: 20px;
+            box-shadow: 0 0 10px #f3efeff8;
+        }
+        h2, label {
+            color: #ffffff; /* white color */
+        }
+        .form-section {
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        input, select {
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #db3434f8;
+            color: #f0ececd6;
+            border: none;
+            cursor: pointer;
+        }
+        button.prev {
+            background-color: #aaa;
+        }
+        button.submit {
+            background-color: #27ae60;
+        }
+        a {
+            text-decoration: none;
+        }
+        a button {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="form-section" id="page1">
+        
+          <h2><i>Account Details </i></h2>
+      <a href=""></a>
+         <p> <label for="email" style="font-weight: bold;">Email Address:</label></p>
+         <p> <input type="email" id="email" name="email"  placeholder="Enter Your email" required="" fdprocessedid="kgcdt"></p>
+      <p><label for="password" style="font-weight: bold;">Password</label></p>
+      <p><input type="password" name="password" id="password" placeholder="Enter Your Password" fdprocessedid="duif7"></p>
+      <label for="phone" style="font-weight: bold;">Phone number</label>
+      <p><input type="tel" name="phone" id="[0-9]{1o}"  placeholder="Enter Your Phone no" fdprocessedid="7bigin"></p>
+        <p><label for="qualification" style="font-weight: bold;">Qualification</label></p> 
+       <select name="qualification" id="qualification" fdprocessedid="lywjxp">
+        <option value="qualification">qualification</option>
+        <option value="matriculation">Matriculation</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Undergraduate">Undergraduate</option>
+        <option value="Graduated">Graduated</option>
+       </select>
+        <p>
+            <a href="../index.html"><button fdprocessedid="352x4q"><b>Back</b></button></a>
+            <a href="./page2.html"><button fdprocessedid="li7clt"><b>Next</b></button></a>
+        </p>
+    </div>
+    </div>
+</body>
+</html>
+
